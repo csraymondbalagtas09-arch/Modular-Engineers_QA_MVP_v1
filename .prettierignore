@@ -1,0 +1,11 @@
+# Starter/platform files kept as supplied
+lib/connector-*
+lib/connectors.ts
+lib/utils.ts
+app/chatgpt-auth.ts
+components/ui/
+build/
+scripts/connector-preview/
+vendor/
+pnpm-lock.yaml
+lib/data/

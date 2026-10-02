@@ -1,0 +1,4 @@
+import {sqliteTable,text,integer,uniqueIndex} from 'drizzle-orm/sqlite-core';
+export const answers=sqliteTable('answers',{id:text('id').primaryKey(),question:text('question').notNull(),payload:text('payload').notNull(),actor:text('actor').notNull(),createdAt:text('created_at').notNull()});
+export const findings=sqliteTable('findings',{id:text('id').primaryKey(),payload:text('payload').notNull(),actor:text('actor').notNull(),createdAt:text('created_at').notNull()});
+export const decisions=sqliteTable('decisions',{id:text('id').primaryKey(),findingId:text('finding_id').notNull(),version:integer('version').notNull(),status:text('status').notNull(),comment:text('comment').notNull(),reviewer:text('reviewer').notNull(),createdAt:text('created_at').notNull(),snapshot:text('snapshot').notNull()},t=>[uniqueIndex('idx_decisions_finding_version').on(t.findingId,t.version)]);

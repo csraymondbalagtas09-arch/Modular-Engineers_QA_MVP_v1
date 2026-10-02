@@ -1,0 +1,597 @@
+{
+  "engine": "Deterministic evidence rules + BM25-style lexical retrieval; no external model",
+  "results": [
+    {
+      "number": 1,
+      "title": "Current structural issue",
+      "question": "Which structural drawing revision should be treated as the current issue in this test pack? Explain why, and cite the evidence.",
+      "details": [
+        "The STR000 drawing register in this package lists 51 sheets and is dated 10 September 2026; the superseded package (Rev D) was issued 8 September 2026.",
+        "Package and sheet revisions are separate: STR202 is sheet Rev D, STR262 is sheet Rev D, STR291 is sheet Rev D, dated 10 September 2026. The register includes them in the current package, so they remain current.",
+        "Every sheet title block agrees with the register, and the supplied filename label agrees with the register-derived status.",
+        "Current status does not resolve conflicts within the package. Consequential findings still require engineer review."
+      ],
+      "citations": [
+        {
+          "id": "doc-03-p1",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 1,
+          "sheet": "STR000",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "Structural Engineering Civil Engineering\nE 10-09-26 ISSUED FOR CONSTRUCTIO\nStormwater Engineering Flood Engineering\nSTRUCTURAL",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=1",
+          "preview": "/evidence/03-1.webp"
+        },
+        {
+          "id": "doc-03-p1",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 1,
+          "sheet": "STR000",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "GROUND FLOOR COLUMN AND WALL\nSTR202 D 10-09-26\nLAYOUT PLAN\nPROJECT TITLE: RECRUITMENT",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=1",
+          "preview": "/evidence/03-1.webp"
+        },
+        {
+          "id": "doc-02-p1",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 1,
+          "sheet": "STR000",
+          "sheetRevision": "D",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "Structural Engineering Civil Engineering\nD 08-09-26 ISSUED FOR CONSTRUCTION\nStormwater Engineering Flood Engineering\nSTRUCTURAL",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=1",
+          "preview": "/evidence/02-1.webp"
+        }
+      ],
+      "findingIds": [],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "supported",
+      "route": "revision:structural",
+      "summary": "Structural package Rev E, issued 10 September 2026, is the current issue in this pack. It is the latest issue in the drawing register sequence, superseding Rev D."
+    },
+    {
+      "number": 2,
+      "title": "Wall-system change",
+      "question": "Identify a material or wall-system change between the superseded structural revision and the current structural revision. State the superseded description and the current description, and cite the relevant pages/drawings.",
+      "details": [
+        "Wall schedule changes (CONCRETE WALL → RITEK WALL, thickness unchanged): STR202: GW2; STR270: GW2, 1W1, 1W2, 2W1, 2W2, 3W1, 3W2, 4W1; STR501: 1W1, 1W2; STR601: 2W1, 2W2; STR701: 3W1, 3W2; STR801: 4W1.",
+        "The same legend change appears on 10 plan sheets (STR202, STR500, STR501, STR600, STR601, STR700, STR701, STR800, STR801, STR900).",
+        "Some walls were already Ritek in the superseded set (GW1, 1W3, 2W3, 3W3). This is not evidence that every wall changed system.",
+        "A Dincel legend entry remains in current STR001; it requires coordination review."
+      ],
+      "citations": [
+        {
+          "id": "doc-02-p21",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 21,
+          "sheet": "STR500",
+          "sheetRevision": "D",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "DRAWINGS FOR ALL SETOUT, A\nDENOTES DINCEL WALLS OVER ONLY\nDATE ENGINEERS -\nREV DESCRIPTION DP FULL NAME REG NO LEVELS, STEPS, FOLDS & FALLS ETC. P/L",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=21",
+          "preview": "/evidence/02-21.webp"
+        },
+        {
+          "id": "doc-03-p21",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 21,
+          "sheet": "STR500",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "DRAWINGS FOR ALL SETOUT, A\nDENOTES RITEK WALLS OVER ONLY\nDATE ENGINEERS -\nREV DESCRIPTION DP FULL NAME REG NO LEVELS, STEPS, FOLDS & FALLS ETC. P/L",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=21",
+          "preview": "/evidence/03-21.webp"
+        },
+        {
+          "id": "doc-02-p5",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "C",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "DENOTES BLOCK WORK WALLS OVER ONLY GW2 CONCRETE WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=5",
+          "preview": "/evidence/02-5.webp"
+        },
+        {
+          "id": "doc-03-p5",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "D",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "DENOTES BLOCK WORK WALLS OVER ONLY GW2 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=5",
+          "preview": "/evidence/03-5.webp"
+        },
+        {
+          "id": "doc-02-p14",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 14,
+          "sheet": "STR270",
+          "sheetRevision": "D",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "LEVEL 4 4W1 CONCRETE WALL 200 N12-300 E.F. N12-300 E.F. 32 MPa",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=14",
+          "preview": "/evidence/02-14.webp"
+        },
+        {
+          "id": "doc-03-p14",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 14,
+          "sheet": "STR270",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "LEVEL 4 4W1 RITEK WALL 200 N12-300 E.F. N12-300 E.F. 32 MPa",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=14",
+          "preview": "/evidence/03-14.webp"
+        },
+        {
+          "id": "doc-02-p22",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 22,
+          "sheet": "STR501",
+          "sheetRevision": "D",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "LEVEL 1 1W2 CONCRETE WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=22",
+          "preview": ""
+        },
+        {
+          "id": "doc-03-p22",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 22,
+          "sheet": "STR501",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "LEVEL 1 1W2 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=22",
+          "preview": "/evidence/03-22.webp"
+        }
+      ],
+      "findingIds": [
+        "legend-wall-system"
+      ],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "supported",
+      "route": "compare:walls",
+      "summary": "The STR500 legend changes from “DENOTES DINCEL WALLS OVER ONLY” in superseded Rev D to “DENOTES RITEK WALLS OVER ONLY” in current Rev E. 16 wall-schedule entries also change from CONCRETE WALL to RITEK WALL."
+    },
+    {
+      "number": 3,
+      "title": "Architectural coordination",
+      "question": "Compare the architectural wall-type information with the current structural drawings. Identify whether the wall-system information is coordinated, and flag any item that still requires engineer confirmation.",
+      "details": [
+        "Shared use of the Ritek name establishes broad agreement only. Exact wall assemblies, thicknesses, locations and connections still require confirmation.",
+        "Have the engineer reconcile each architectural wall type and location with its structural mark, thickness and connection detail, and confirm which types are structural.",
+        "STR001 legend names Dincel walls, while 10 current legends (STR202, STR500, STR501, STR600, …) name Ritek walls. Confirm whether the Dincel legend is residual or intentional."
+      ],
+      "citations": [
+        {
+          "id": "doc-01-p3",
+          "documentId": "doc-01",
+          "filename": "01_Project_Architectural_Sanitised.pdf",
+          "title": "Architectural drawings",
+          "page": 3,
+          "sheet": "A100",
+          "sheetRevision": "CC-A",
+          "packageRevision": "CC-A",
+          "status": "current",
+          "quote": "FOR WASTE DP DOWNPIPE FRL 240/240/240\nCC-A 02/09/26 FOR CC SUBMISSION ERICA MARSHALL-EVANS DEP 0001207 FOR WASTE VEHICLE LOADING Ritek XL - 200A EXTERNAL\nVEHICLE LOADING DA CONDITION 68.\nVD VERTICAL DROP 200",
+          "url": "/project-files/01_Project_Architectural_Sanitised.pdf#page=3",
+          "preview": "/evidence/01-3.webp"
+        },
+        {
+          "id": "doc-03-p14",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 14,
+          "sheet": "STR270",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "PROJECT ADDRESS: FLOOR LEVEL TYPE DESCRIPTION THK (mm) VERT. REINF. HORZ. REINF. f'c\nPROJECT TITLE: MULTI DWELLING GW1 RITEK WALL 150 N12-200 E.F. N12-200 E.F. 32 MPa\nGROUND\nCONSENT NO: BODY CORPORATE REG NO: PROJECT",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=14",
+          "preview": "/evidence/03-14.webp"
+        },
+        {
+          "id": "doc-03-p2",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 2,
+          "sheet": "STR001",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "GENERAL NOTES OF BACKPROPPING FOR SLABS UP TO 300mm\nDENOTES REINFORCED DINCEL WALLS OVER CONSTRUCTION\nSAND 100 KPa -\nEP D 08-09-26 ISSUED FOR D.A.",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=2",
+          "preview": "/evidence/03-2.webp"
+        },
+        {
+          "id": "doc-03-p5",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "D",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "PROJECT TITLE: MULTI DWELLING\nDENOTES BRICK WALLS OVER ONLY GW1 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa\nGROUND PROJECT\nCONSENT NO: STR208 - 2023 BODY CORPORATE REG NO: DEP0001320",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=5",
+          "preview": "/evidence/03-5.webp"
+        }
+      ],
+      "findingIds": [
+        "architecture-wall-mapping",
+        "legend-wall-system"
+      ],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "review",
+      "route": "coordination:architecture",
+      "summary": "Architecture (A100) names Ritek XL 200A, 165A, 150A, 165-C, 150-C. Current structural wall schedules use Ritek wall marks at 150 mm and 200 mm without a product-to-location cross-reference. No 165 mm Ritek wall appears in the extracted structural wall schedules; those types may be non-structural (the architectural legend marks some as internal), but that is not stated."
+    },
+    {
+      "number": 4,
+      "title": "Certificate alignment",
+      "question": "What structural drawing revision is referenced by the supplied design certificate? Does it align with the current structural drawing set? Cite the evidence.",
+      "details": [
+        "The project number 175-2026 also appears on the structural title blocks.",
+        "Revision alignment does not verify the certificate’s supporting-document chronology or establish proprietary wall capacities.",
+        "Separately flagged: The certificate cites report G19323-1 dated 18 November 2026 (2026-11-18); the current structural issue is 10 September 2026 (2026-09-10).",
+        "The certificate has no issue date, so it cannot be confirmed that it was issued after Rev E."
+      ],
+      "citations": [
+        {
+          "id": "doc-04-p1",
+          "documentId": "doc-04",
+          "filename": "04_Structural_Design_Certificate_Rev_E_Sanitised.pdf",
+          "title": "Design certificate",
+          "page": 1,
+          "sheet": "",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "CLIENT:\nDRAWINGS NUMBER: STR175-2026, REV.E\nONL\nCertify that the drawings and design for the above-mentioned address fulfills the structural",
+          "url": "/project-files/04_Structural_Design_Certificate_Rev_E_Sanitised.pdf#page=1",
+          "preview": "/evidence/04-1.webp"
+        },
+        {
+          "id": "doc-03-p1",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 1,
+          "sheet": "STR000",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "Structural Engineering Civil Engineering\nE 10-09-26 ISSUED FOR CONSTRUCTIO\nStormwater Engineering Flood Engineering\nSTRUCTURAL",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=1",
+          "preview": "/evidence/03-1.webp"
+        }
+      ],
+      "findingIds": [
+        "certificate-date",
+        "certificate-issue-date"
+      ],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "supported",
+      "route": "certificate:revision",
+      "summary": "The design certificate references STR175-2026, REV.E, which aligns with the current structural package (Rev E, issued 10 September 2026)."
+    },
+    {
+      "number": 5,
+      "title": "Certificate consistency",
+      "question": "Review the design certificate for internal consistency. Identify any date, reference or supporting-document detail that appears unusual, inconsistent or requires verification. Do not assume it is correct merely because it appears on a certificate.",
+      "details": [
+        "A design cannot normally rely on a report dated after the drawings it certifies. The date may be a typo, or the report may not be the one used. This is a concern to investigate, not proof the certificate is invalid.",
+        "Without an issue date it cannot be confirmed that the certificate was issued for, and after, the current drawing revision.",
+        "The drawing reference itself (STR175-2026, REV.E) is consistent with the current structural package.",
+        "Obtain G19323-1, verify its issue date and applicability, and ask for a dated certificate or clarification.",
+        "Request a dated certificate or written confirmation of when it was issued."
+      ],
+      "citations": [
+        {
+          "id": "doc-04-p1",
+          "documentId": "doc-04",
+          "filename": "04_Structural_Design_Certificate_Rev_E_Sanitised.pdf",
+          "title": "Design certificate",
+          "page": 1,
+          "sheet": "",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "PROJECT\n• Geotechnical Report by Geotechnical Consultants Australia G19323-1 dated 18.11.2026\nI, Ali Al-Obaidi from am a chartered professional engineer in both civil and structural\ncolleges. I am a competent person in structural and civil design, being listed in the National Professional",
+          "url": "/project-files/04_Structural_Design_Certificate_Rev_E_Sanitised.pdf#page=1",
+          "preview": "/evidence/04-1.webp"
+        },
+        {
+          "id": "doc-03-p1",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 1,
+          "sheet": "STR000",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "Structural Engineering Civil Engineering\nE 10-09-26 ISSUED FOR CONSTRUCTIO\nStormwater Engineering Flood Engineering\nSTRUCTURAL",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=1",
+          "preview": "/evidence/03-1.webp"
+        },
+        {
+          "id": "doc-04-p1",
+          "documentId": "doc-04",
+          "filename": "04_Structural_Design_Certificate_Rev_E_Sanitised.pdf",
+          "title": "Design certificate",
+          "page": 1,
+          "sheet": "",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "CLIENT:\nDRAWINGS NUMBER: STR175-2026, REV.E\nONL\nCertify that the drawings and design for the above-mentioned address fulfills the structural",
+          "url": "/project-files/04_Structural_Design_Certificate_Rev_E_Sanitised.pdf#page=1",
+          "preview": "/evidence/04-1.webp"
+        },
+        {
+          "id": "doc-04-p1",
+          "documentId": "doc-04",
+          "filename": "04_Structural_Design_Certificate_Rev_E_Sanitised.pdf",
+          "title": "Design certificate",
+          "page": 1,
+          "sheet": "",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "provisions of the Building Code of Australia and the relevant Australian Standards.\nAli Al-Obaidi I Director\nMSc, BSc, MIEAust, CPEng,\nNER (No: 5358554), NPER",
+          "url": "/project-files/04_Structural_Design_Certificate_Rev_E_Sanitised.pdf#page=1",
+          "preview": "/evidence/04-1.webp"
+        }
+      ],
+      "findingIds": [
+        "certificate-date",
+        "certificate-issue-date"
+      ],
+      "missing": [
+        "Geotechnical report G19323-1 (not supplied in the pack).",
+        "The certificate issue date, or a dated reissue."
+      ],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "review",
+      "route": "certificate:consistency",
+      "summary": "The certificate cites report G19323-1 dated 18 November 2026 (2026-11-18); the current structural issue is 10 September 2026 (2026-09-10). The certificate is signed but states no date of its own. The only date on it belongs to the referenced geotechnical report."
+    },
+    {
+      "number": 6,
+      "title": "Missing product evidence",
+      "question": "Confirm the exact tested proprietary Ritek wall product specification, manufacturer design capacity and certified connection capacity applicable to every Ritek wall shown in the current structural drawings. If this cannot be verified from the supplied documents, state exactly what additional evidence would be required.",
+      "details": [
+        "A material name, concrete grade or general design certificate cannot establish proprietary product and connection capacities.",
+        "Request product-specific and project-applicable technical evidence before accepting a capacity claim."
+      ],
+      "citations": [
+        {
+          "id": "doc-01-p3",
+          "documentId": "doc-01",
+          "filename": "01_Project_Architectural_Sanitised.pdf",
+          "title": "Architectural drawings",
+          "page": 3,
+          "sheet": "A100",
+          "sheetRevision": "CC-A",
+          "packageRevision": "CC-A",
+          "status": "current",
+          "quote": "FOR WASTE DP DOWNPIPE FRL 240/240/240\nCC-A 02/09/26 FOR CC SUBMISSION ERICA MARSHALL-EVANS DEP 0001207 FOR WASTE VEHICLE LOADING Ritek XL - 200A EXTERNAL\nVEHICLE LOADING DA CONDITION 68.\nVD VERTICAL DROP 200",
+          "url": "/project-files/01_Project_Architectural_Sanitised.pdf#page=3",
+          "preview": "/evidence/01-3.webp"
+        },
+        {
+          "id": "doc-03-p5",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "D",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "PROJECT TITLE: MULTI DWELLING\nDENOTES BRICK WALLS OVER ONLY GW1 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa\nGROUND PROJECT\nCONSENT NO: STR208 - 2023 BODY CORPORATE REG NO: DEP0001320",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=5",
+          "preview": "/evidence/03-5.webp"
+        },
+        {
+          "id": "doc-04-p1",
+          "documentId": "doc-04",
+          "filename": "04_Structural_Design_Certificate_Rev_E_Sanitised.pdf",
+          "title": "Design certificate",
+          "page": 1,
+          "sheet": "",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "CLIENT:\nDRAWINGS NUMBER: STR175-2026, REV.E\nONL\nCertify that the drawings and design for the above-mentioned address fulfills the structural",
+          "url": "/project-files/04_Structural_Design_Certificate_Rev_E_Sanitised.pdf#page=1",
+          "preview": "/evidence/04-1.webp"
+        }
+      ],
+      "findingIds": [
+        "ritek-product-evidence"
+      ],
+      "missing": [
+        "Exact manufacturer product/model and specification revision, mapped to every wall mark and location.",
+        "Applicable product test reports and certification with scope, configuration and limitations.",
+        "Manufacturer design capacities and the loading, geometry and material assumptions supporting them.",
+        "Project-specific connection details and certified connection capacities, including anchors and substrate.",
+        "Engineer confirmation that the product and connection evidence applies to these wall assemblies."
+      ],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "insufficient",
+      "route": "missing:product-evidence",
+      "summary": "Architectural product names and structural wall schedules are present. The supplied pack does not establish tested manufacturer capacities and certified connections for every wall."
+    },
+    {
+      "number": 7,
+      "title": "Suspended slab strength",
+      "question": "What concrete compressive strength is specified for suspended slabs, and where is this stated? Provide the source file, page and relevant schedule/section.",
+      "details": [
+        "Stated in the Concrete Quality schedule on STR001 (03_Structural_Rev_E_CURRENT_Sanitised.pdf, PDF p.2).",
+        "\"U.O.N.\" means unless otherwise noted: check local drawing notes for exceptions.",
+        "STR500 suspended-slab note also states concrete slab f′c = 32 MPa (slump 80 mm)."
+      ],
+      "citations": [
+        {
+          "id": "doc-03-p2",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 2,
+          "sheet": "STR001",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "DD.MM.YY SUSPENDED SLAB 80mm 20mm A 32MPa U.O.N.",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=2",
+          "preview": "/evidence/03-2.webp"
+        },
+        {
+          "id": "doc-03-p21",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 21,
+          "sheet": "STR500",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "EMAIL :\nE. CONCRETE SLAB (f'c)=32 MPa E\nCONCRETE BEAM SCHEDULE C00 DENOTES COLUMN MARK WEBSITE :\n-",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=21",
+          "preview": "/evidence/03-21.webp"
+        }
+      ],
+      "findingIds": [],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "supported",
+      "route": "concrete:current",
+      "summary": "Suspended slab concrete compressive strength (f′c) is 32 MPa U.O.N. (unless otherwise noted)."
+    },
+    {
+      "number": 8,
+      "title": "Engineer review finding",
+      "question": "Create one AI QA finding from the supplied documents that should be escalated to Engineer Review. Show the finding, evidence, risk/uncertainty, recommended status, and reviewer actions available.",
+      "details": [
+        "The governing thickness cannot be established from these competing schedules. Do not select a value automatically.",
+        "Ask the structural engineer to reconcile the schedules and issue the governing thickness.",
+        "Recommended status: Engineer Review. Reviewer actions: Accept, Reject, or Needs Correction, each with a recorded reason. Accepting the finding is not engineering approval."
+      ],
+      "citations": [
+        {
+          "id": "doc-03-p5",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "D",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "DENOTES BRICK WALLS OVER ONLY GW1 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=5",
+          "preview": "/evidence/03-5.webp"
+        },
+        {
+          "id": "doc-03-p14",
+          "documentId": "doc-03",
+          "filename": "03_Structural_Rev_E_CURRENT_Sanitised.pdf",
+          "title": "Structural · current",
+          "page": 14,
+          "sheet": "STR270",
+          "sheetRevision": "E",
+          "packageRevision": "E",
+          "status": "current",
+          "quote": "PROJECT TITLE: MULTI DWELLING GW1 RITEK WALL 150 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/03_Structural_Rev_E_CURRENT_Sanitised.pdf#page=14",
+          "preview": "/evidence/03-14.webp"
+        },
+        {
+          "id": "doc-02-p5",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 5,
+          "sheet": "STR202",
+          "sheetRevision": "C",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "DENOTES BRICK WALLS OVER ONLY GW1 RITEK WALL 200 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=5",
+          "preview": "/evidence/02-5.webp"
+        },
+        {
+          "id": "doc-02-p14",
+          "documentId": "doc-02",
+          "filename": "02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf",
+          "title": "Structural · superseded",
+          "page": 14,
+          "sheet": "STR270",
+          "sheetRevision": "D",
+          "packageRevision": "D",
+          "status": "superseded",
+          "quote": "PROJECT TITLE: MULTI DWELLING GW1 RITEK WALL 150 N12-200 E.F. N12-200 E.F. 32 MPa",
+          "url": "/project-files/02_Structural_Rev_D_SUPERSEDED_Sanitised.pdf#page=14",
+          "preview": "/evidence/02-14.webp"
+        }
+      ],
+      "findingIds": [
+        "dimension-structural-175-2026:GW1"
+      ],
+      "missing": [],
+      "mode": "Evidence rules + lexical retrieval",
+      "status": "conflict",
+      "route": "escalation",
+      "summary": "STR202 specifies 200 mm; STR270 specifies 150 mm. Both sheets belong to the current structural package (Rev E). The same discrepancy exists in superseded Rev D (STR202 200 mm, STR270 150 mm), so it was carried into the current issue unresolved."
+    }
+  ]
+}
